@@ -9,4 +9,5 @@
     <string name="on_boarding_asteroid_title">Follow the asteroids</string>
     <string name="on_boarding_asteroid_speech">Consult the asteroids in our solar system, and say \"Hi\" when they pass by.</string>
     <string name="on_boarding_next_label">Get started</string>
+
 </resources>

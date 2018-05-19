@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/onBoardingPresentation">
+
+    <fragment
+        android:id="@+id/onBoardingPresentation"
+        android:name="com.fabienraye.nasawatcher.features.onboarding.presenter.PresentationFragment"
+        android:label="fragment_on_boarding_presentation"
+        tools:layout="@layout/fragment_on_boarding_presentation" >
+        <action
+            android:id="@+id/action_onBoardingPresentation_to_onBoardingRegister"
+            app:clearTask="true"
+            app:destination="@id/onBoardingRegister" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingRegister"
+        android:name="com.fabienraye.nasawatcher.features.onboarding.presenter.RegisterFragment"
+        android:label="fragment_on_boarding_register"
+        tools:layout="@layout/fragment_register" />
+</navigation>
